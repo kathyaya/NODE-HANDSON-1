@@ -1,11 +1,6 @@
-const http = require("http");
 
 
-const server = http.createServer((req,res)=>{
-    if (req.url === '/'){
-        res.write("I AM ON HOME PAGE");
-        res.write("We have two routing pages- ABOUT & CONTACT")
-        res.write("Node. js (Node) is an open source, cross-platform runtime environment for executing JavaScript code")
+{
         //res.write('<h1>Hello I am homepage</h1>');
         res.end();
     }
